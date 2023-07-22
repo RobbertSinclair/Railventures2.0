@@ -1,0 +1,7 @@
+.stationArea {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    vertical-align: middle;
+}

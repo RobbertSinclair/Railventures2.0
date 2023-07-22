@@ -1,0 +1,44 @@
+.station {
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    width: 20%;
+    text-align: center;
+    margin: 10px;
+    font-family: "Montserrat";
+    
+    animation-name: fadeIn;
+    animation-duration: 0.2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+
+}
+
+.station h2 {
+    padding: 24px;
+}
+
+@media only screen and (max-width: 600px) {
+    .station h2 {
+        padding: 15px;
+    }
+
+    .station {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 601px) {
+    .station h2 {
+        padding: 20px;
+    }
+
+    .station {
+        width: 45%;
+    }
+}
+
+@keyframes fadeIn {
+    from {opacity: 0; font-size: 1px;}
+    to {opacity: 0.8; font-size: 24px;}
+}
